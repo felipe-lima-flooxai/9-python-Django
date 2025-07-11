@@ -5,3 +5,7 @@ from django.http import HttpResponse
 def blog(request):
     print("Fazer outras coisas aqui")
     return HttpResponse("Uma mensagem de retorno: Blog")
+
+def exemplo(request):
+    print("Fazer outras coisas aqui")
+    return HttpResponse("Uma mensagem de retorno: Blog/exemplo")
